@@ -158,10 +158,10 @@ body {
 
 .ring{
     position: absolute; 
-    top: -70%; 
-    right: -25%;
-    width: 1100px; 
-    height: 1100px;
+    top: -60%; 
+    right: -60%;
+    width: 150%; 
+    height: 150%;
 }
 
 .rotate-a{
@@ -1193,30 +1193,25 @@ box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px
 .ring{
     position: absolute; 
     top: -50%; 
-    right: -40%;
-    width: 600px; 
-    height: 600px;
+    right: -15%;
+    width: 110%; 
+    height: 110%;
 }
 
 
 
-.h-logo img{
-    width: 165px;
-}
-.t-logo img{
-    width: 210px;
-    
 
-}
 
 .h-logo {
     position: absolute;
-    top: 10%;
+    top: 9.5%;
     left: 50%;
-    transform: translateX(-42%);
+    transform: translateX(-50%);
     animation:  3s ease-in-out 0s infinite ;
     z-index: 2;
-  
+   
+    width: 40%;
+      
 
 }
 
@@ -1224,13 +1219,28 @@ box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px
 
 .t-logo {
     position: absolute;
-    top: 6%;
+    top: 5%;
     left: 50%;
     transform: translateX(-50%);
     animation:  3s ease-in-out 0s infinite ;
+   width: 52%;
+    
+        
    
     
 }
+
+.h-logo img{
+    width: 100%;
+    display: block;
+}
+.t-logo img{
+    
+    width: 100%;
+    display: block;
+}
+
+
 
 
 @keyframes h {
